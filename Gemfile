@@ -35,6 +35,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'guard', '~> 2.14'
   gem 'guard-minitest'
+  gem 'minitest-reporters', '~> 1.1', '>= 1.1.13'
 end
 
 group :development do
